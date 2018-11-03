@@ -30,10 +30,10 @@ class Landing extends Component {
                 </p>
                 <hr />
                 <Link to="/calendar" className="btn btn-lg btn-dark ">
-                  <i class="far fa-calendar"> Set up your Calendar here</i>
+                  <i className="far fa-calendar"> Set up your Calendar here</i>
                 </Link>
                 <Link to="/uber" className="btn btn-lg btn-light">
-                  <i class="fab fa-uber"> Uber here</i>
+                  <i className="fab fa-uber"> Uber here</i>
                 </Link>
               </div>
             </div>
