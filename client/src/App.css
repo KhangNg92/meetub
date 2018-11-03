@@ -4,7 +4,7 @@ img {
 
 .landing {
   position: relative;
-  background: url("./img/computer.jpg") no-repeat;
+  background: url("./img/victor-xok-528238-unsplash.jpg") no-repeat;
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -17,7 +17,7 @@ img {
 }
 
 .dark-overlay {
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.4);
   position: absolute;
   top: 0;
   left: 0;
@@ -41,7 +41,9 @@ img {
 .navbar-brand {
   color: white;
 }
-
+.navbar {
+  color: black;
+}
 .card-body {
   color: black;
 }
@@ -89,7 +91,7 @@ p.lead1 {
   white-space: nowrap; /* Keeps the content on a single line */
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
   letter-spacing: 0.15em; /* Adjust as needed */
-  animation: typing 6s steps(40, end), blink-caret 0.75s step-end infinite;
+  animation: typing 8s steps(40, end), blink-caret 0.75s step-end infinite;
 }
 @keyframes typing {
   from {
@@ -108,4 +110,22 @@ p.lead1 {
   50% {
     border-color: orange;
   }
+}
+
+.col-md-12 .text-center {
+  margin-top: 500px;
+}
+
+.align-middle {
+  margin-left: 750px;
+}
+
+.card-title {
+  margin-right: 100px;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 100px;
+}
+
+.card-text {
+  margin-left: 400px;
 }

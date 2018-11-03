@@ -25,7 +25,7 @@ import Profile from "./components/profile/Profile";
 import NotFound from "./components/not-found/NotFound";
 import Posts from "./components/posts/Posts";
 import Post from "./components/post/Post";
-import Calendar from "./components/calendar/calendar";
+import Calendar2 from "./components/calendar/calendar";
 import "./App.css";
 
 // Check for token
@@ -66,7 +66,7 @@ class App extends Component {
               <PrivateRoute exact path="/dashboard" component={Dashboard} />
             </Switch>
             <Switch>
-              <PrivateRoute exact path="/calendar" component={Calendar} />
+              <Route exact path="/calendar" component={Calendar2} />
             </Switch>
             <Switch>
               <PrivateRoute
