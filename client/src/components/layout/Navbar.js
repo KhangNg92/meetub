@@ -29,7 +29,7 @@ class Navbar extends Component {
         </li>
         <li className="nav-item">
           <Link className="nav-link" to="/uber">
-            Uber
+            Explore
           </Link>
         </li>
         <li className="nav-item">

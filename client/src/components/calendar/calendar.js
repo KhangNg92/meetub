@@ -45,7 +45,7 @@ class Calendar2 extends Component {
               <a href="https://calendar.google.com/calendar/r">here</a>
             </p>
             <Link to="/uber" className="btn btn-sm btn-dark uber">
-              Explore Something Cool Around You :)
+              Next Let's Explore Something Cool Around You :)
             </Link>
           </div>
         </div>

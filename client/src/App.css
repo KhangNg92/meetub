@@ -142,3 +142,46 @@ i {
   margin-top: -24px;
   margin-bottom: -50px;
 }
+
+.google {
+  height: 100vh;
+  margin-top: -24px;
+  margin-bottom: -50px;
+}
+
+.card-title .map {
+  font-family: "Gloria Hallelujah", "cursive";
+}
+
+.atag {
+  color: white;
+  text-decoration: none;
+}
+
+.atag:hover {
+  color: white;
+  text-decoration: none;
+}
+
+h4 .btn-secondary {
+  margin-right: 1000px;
+}
+
+.exploretitle {
+  font-family: "Mali", "cursive";
+  font-size: 40px;
+}
+
+.feed {
+  height: 100vh;
+
+  margin-bottom: -50px;
+}
+
+.card3 {
+  position: relative;
+  background: url("./img/autumn-background-beautiful-627823.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: -24px;
+}

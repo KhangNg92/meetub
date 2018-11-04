@@ -12,4 +12,3 @@ export const ADD_POST = "ADD_POST";
 export const DELETE_POST = "DELETE_POST";
 export const CLEAR_ERRORS = "CLEAR_ERRORS";
 export const GET_CALENDAR = "GET_CALENDAR";
-export const FETCH_WEATHER = "FETCH_WEATHER";

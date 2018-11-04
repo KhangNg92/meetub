@@ -33,7 +33,7 @@ class Landing extends Component {
                   <i className="far fa-calendar"> Set up your Calendar here</i>
                 </Link>
                 <Link to="/uber" className="btn btn-lg btn-light">
-                  <i className="fab fa-uber"> Uber here</i>
+                  <i className="fab fa-uber"> Explore here</i>
                 </Link>
               </div>
             </div>

@@ -1,25 +1,26 @@
+import { Map, InfoWindow, Marker, GoogleApiWrapper } from "google-maps-react";
 import React, { Component } from "react";
-
-//
-class GoogleMap extends Component {
-  componentDidMount() {
-    // google maps will find the this.refs.map which is the html component
-    // then put the map in
-    const google = window.google;
-    new google.maps.Map(this.refs.map, {
-      zoom: 12, // zoom level, good glance of a city
-      center: {
-        // center the property
-        lat: this.props.lat, // latitude
-        lng: this.props.lon // longitude
-      }
-    });
-  }
-
+export class MapContainer extends Component {
   render() {
-    //ref system is reference to this.refs.map
-    return <div ref="map" />;
+    const style = {
+      width: "100%",
+      height: "75%"
+    };
+    return (
+      <div className="google">
+        <br />
+        <br />
+        <br />
+        <Map style={style} google={this.props.google} zoom={14}>
+          <Marker onClick={this.onMarkerClick} name={"Current location"} />
+
+          <InfoWindow onClose={this.onInfoWindowClose} />
+        </Map>
+      </div>
+    );
   }
 }
 
-export default GoogleMap;
+export default GoogleApiWrapper({
+  apiKey: "AIzaSyASDVGdD_Q2i5Ex7ayEdrAG8N3YV3HvUEo"
+})(MapContainer);
