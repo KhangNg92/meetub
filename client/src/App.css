@@ -185,3 +185,24 @@ h4 .btn-secondary {
   background-position: center;
   margin-top: -24px;
 }
+
+.cal{
+  margin-bottom: 120px;
+}
+.card-text1{
+  margin-top: 250px;
+}
+
+.login{
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+
+.register{
+  margin-bottom: 200px;
+}
+
+.header{
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 100px
+}

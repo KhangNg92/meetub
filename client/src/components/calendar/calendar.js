@@ -9,54 +9,33 @@ class Calendar2 extends Component {
   render() {
     return (
       <div className="calendar">
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
+     
+      <div className = "calendarform">
         <div class="card bg-transparent border-0">
           <div class="card-body">
-            <h5 class="card-title text-white">Let's pick you a date</h5>{" "}
+            <h5 class="header text-white">Let's pick you a date</h5>{" "}
             <DateTimePicker
-              className="text-white"
+              className="cal"
               onChange={this.onChange}
               value={this.state.date}
               isCalendarOpen={true}
               disableClock={true}
             />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
+ 
             <p class="card-text1 text-white">
               Or you can book it to your Google Calendar{" "}
               <a href="https://calendar.google.com/calendar/r">here</a>
             </p>
-            <Link to="/uber" className="btn btn-sm btn-dark uber">
+  
+            <Link to="/uber" className="btn btn-sm btn-secondary uber">
               Next Let's Explore Something Cool Around You :)
             </Link>
+            
           </div>
+          
         </div>
-
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
+        </div>
+   
       </div>
     );
   }
