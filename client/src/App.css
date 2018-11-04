@@ -63,18 +63,6 @@ img {
 
 /* Set a specific color for each brand */
 
-/* Facebook */
-.fa-facebook {
-  background: #3b5998;
-  color: white;
-}
-
-/* Twitter */
-.fa-twitter {
-  background: #55acee;
-  color: white;
-}
-
 .nav-link {
   color: white;
   opacity: 0.7;
@@ -124,4 +112,33 @@ p.lead1 {
 
 .card-text {
   margin-left: 400px;
+}
+
+.dashboard {
+  height: 100vh;
+  margin-top: -24px;
+  margin-bottom: -50px;
+}
+
+.profiles {
+  height: 100vh;
+  margin-top: -24px;
+  margin-bottom: -50px;
+}
+
+.fas .fa-clock {
+  word-spacing: 2px;
+}
+
+i {
+  margin-right: 10px;
+}
+.calendar {
+  position: relative;
+  background: url("./img/beautiful-cute-daylight-1468377.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  margin-top: -24px;
+  margin-bottom: -50px;
 }

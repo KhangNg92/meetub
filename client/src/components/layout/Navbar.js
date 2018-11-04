@@ -19,7 +19,7 @@ class Navbar extends Component {
         <li className="nav-item">
           <Link className="nav-link" to="/profiles">
             {"   "}
-            Developers
+            Users
           </Link>
         </li>
         <li className="nav-item">
@@ -39,7 +39,7 @@ class Navbar extends Component {
         </li>
         <li className="nav-item">
           <Link className="nav-link" to="/feed">
-            Post Feed
+            Community
           </Link>
         </li>
 

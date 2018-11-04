@@ -8,7 +8,7 @@ class Calendar2 extends Component {
   };
   render() {
     return (
-      <div className="container">
+      <div className="calendar">
         <br />
         <br />
         <br />
@@ -16,10 +16,11 @@ class Calendar2 extends Component {
         <br />
         <br />
         <br />
-        <div class="card border-light">
+        <div class="card bg-transparent border-0">
           <div class="card-body">
-            <h5 class="card-title bg-dark text-white">Let's pick you a date</h5>{" "}
+            <h5 class="card-title text-white">Let's pick you a date</h5>{" "}
             <DateTimePicker
+              className="text-white"
               onChange={this.onChange}
               value={this.state.date}
               isCalendarOpen={true}
@@ -39,14 +40,14 @@ class Calendar2 extends Component {
             <br />
             <br />
             <br />
-            <p class="card-text1">
+            <p class="card-text1 text-white">
               Or you can book it to your Google Calendar{" "}
               <a href="https://calendar.google.com/calendar/r">here</a>
             </p>
+            <Link to="/uber" className="btn btn-sm btn-dark uber">
+              Explore Something Cool Around You :)
+            </Link>
           </div>
-          <Link to="/uber" className="btn btn-dark uber">
-            Let's book you an Uber now
-          </Link>
         </div>
 
         <br />

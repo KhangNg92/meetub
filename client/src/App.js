@@ -27,6 +27,7 @@ import Posts from "./components/posts/Posts";
 import Post from "./components/post/Post";
 import Calendar2 from "./components/calendar/calendar";
 import "./App.css";
+import Uber from "./components/uber/Uber";
 
 // Check for token
 if (localStorage.jwtToken) {
@@ -67,6 +68,9 @@ class App extends Component {
             </Switch>
             <Switch>
               <Route exact path="/calendar" component={Calendar2} />
+            </Switch>
+            <Switch>
+              <Route exact path="/uber" component={Uber} />
             </Switch>
             <Switch>
               <PrivateRoute
